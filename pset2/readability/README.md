@@ -26,11 +26,7 @@ The program prompts the user to enter a text string.
 
 The program calculates the Coleman-Liau index using the following formula:
 
-```
-
 index = 0.0588 * L - 0.296 * S - 15.8
-
-```
 
 Where:
 
@@ -43,6 +39,30 @@ Where:
 -   If the calculated index is less than 1, the program outputs "Before Grade 1".
 -   Otherwise, the program outputs "Grade [index]", where [index] is the rounded integer value of the Coleman-Liau index.
 
+## Example
+
+```
+
+Text: Congratulations! Today is your day. You're off to Great Places! You're off and away! Grade 3
+
+Text: The quick brown fox jumps over the lazy dog. Grade 8
+
+Text: It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. ^1^ Grade 10
+
+[
+
+1. www.markedbyteachers.com
+
+](http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html)
+
+[
+
+www.markedbyteachers.com
+
+](http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html)
+
+```
+
 ## What I Learned
 
 -   **String Manipulation:** I used `strlen()` to iterate through the string and `isalpha()` to check for alphabetic characters.
@@ -52,17 +72,4 @@ Where:
 -   **CS50 Library:** I used the CS50 library's `get_string()` function for safe user input.
 -   **Mathematical Calculations:** The program applies a specific formula to calculate the reading grade level.
 -   **Rounding:** The program uses the `round()` function to round the calculated index to the nearest integer.
-
-## Dependencies
-
--   **CS50 Library:** This program requires the CS50 library for the `get_string()` function. To compile this program, you will need to have the CS50 library installed and linked with your code.
-
-    * If you are using the CS50 Codespace environment, the CS50 library is already included.
-    * If you are compiling locally, you will need to download and install the CS50 library.
-
-        * Download the latest release of the CS50 library from the [CS50 Library GitHub repository](https://github.com/cs50/libcs50/releases).
-        * Extract the downloaded archive.
-        * Compile and link the `cs50.c` file with your `readability.c` file during compilation.
-
-    * Example compilation command: `gcc readability.c cs50.c -o readability`
 ```
