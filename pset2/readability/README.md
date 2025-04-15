@@ -41,8 +41,6 @@ Where:
 
 ## Example
 
-```
-
 Text: Congratulations! Today is your day. You're off to Great Places! You're off and away! Grade 3
 
 Text: The quick brown fox jumps over the lazy dog. Grade 8
@@ -51,17 +49,15 @@ Text: It is a truth universally acknowledged, that a single man in possession of
 
 [
 
-1. www.markedbyteachers.com
+1.  [www.markedbyteachers.com](http://www.markedbyteachers.com/)
 
-](http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html)
+](<http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html>)
 
 [
 
-www.markedbyteachers.com
+[www.markedbyteachers.com](http://www.markedbyteachers.com/)
 
-](http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html)
-
-```
+](<http://www.markedbyteachers.com/international-baccalaureate/world-literature/marriage-rather-than-love-is-the-central-theme-of-pride-and-prejudice-do-you-agree.html>)
 
 ## What I Learned
 
